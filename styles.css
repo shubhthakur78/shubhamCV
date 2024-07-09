@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.left-col {
+    flex: 1;
+    text-align: center;
+}
+
+.left-col img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+}
+
+.left-col h2 {
+    margin-bottom: 5px;
+}
+
+.left-col p {
+    margin-bottom: 10px;
+}
+
+.left-col p a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn color */
+}
+
+.right-col {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.right-col h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.right-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-col ul li {
+    margin-bottom: 5px;
+}
+
+.experience {
+    margin-top: 10px;
+}
+
+.experience h4 {
+    margin-bottom: 5px;
+}
